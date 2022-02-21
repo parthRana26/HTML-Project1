@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0; 
+    background-image: url('Jellyfish.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    border: 1px solid white;
+    padding-bottom: 0px;
+}
+
+.left{
+    line-height: 0px;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    padding-bottom: 0px;
+}
+
+.left .logo{
+    margin: 10px auto;
+    width: bold;
+    font-size: 40px;
+    color: rgb(231, 102, 56);
+}
+
+.mid{
+    line-height: 0px;
+    display: block;
+    width: 33%;
+    margin: 18px auto;
+    padding-bottom: 0px;
+}
+
+.right{
+    line-height: 0px;
+    position: absolute;
+    right: 38px;
+    top: 20px;
+    display: inline-block;
+    padding-bottom: 0px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 16px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn{
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: gray;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 60px;
+    padding: 100px 1px;
+    width: 35%;
+    border-radius: 10px;
+}
+
+.container h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.container .ml a{
+    width: bold;
+    font-size: 30px;
+    color: rgb(168, 10, 44);
+    text-decoration: none;
+    
+}
+
+.container .ml a:hover{
+    font-size: 25px;
+    color: rgb(192, 72, 122);
+    text-decoration: none;
+    
+}
+
+.container .ml{
+    text-align: center;
+    padding: 10px auto;
+}
+
+.container .ai a{
+    font-size: 30px;
+    color: rgb(168, 10, 44);
+    text-decoration: none;
+}
+
+.container .ai a:hover{
+    font-size: 25px;
+    color: rgb(192, 72, 122);
+    text-decoration: none;
+    
+}
+
+.container .ai{
+    text-align: center;
+    padding: 10px auto;
+}
+
+.container .ds a{
+    font-size: 30px;
+    color: rgb(168, 10, 44);
+    text-decoration: none;
+}
+
+.container .ds{
+    text-align: center;
+    padding: 10px auto;
+}
+
+.container .ds a:hover{
+    font-size: 25px;
+    color: rgb(192, 72, 122);
+    text-decoration: none;
+    
+}
+
